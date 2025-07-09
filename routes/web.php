@@ -6,6 +6,8 @@ use App\Http\Controllers\TestController;
 use App\Http\Controllers\StudentController;
 use App\Http\Controllers\TeachersController;
 
+Route::redirect('/', '/student');
+
 Route::get('home', function(){
     //$name = 'tester2';
     //$email = 'tester2@gmail.com';
